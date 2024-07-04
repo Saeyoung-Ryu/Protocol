@@ -17,4 +17,5 @@ public class DashBoardInfo
     [Key(8)] public List<string> MemberMidRankOrderByName { get; set; }
     [Key(9)] public List<string> MemberJgRankOrderByName { get; set; }
     [Key(10)] public List<string> MemberTopRankOrderByName { get; set; }
+    [Key(11)] public int Point { get; set; }
 }
