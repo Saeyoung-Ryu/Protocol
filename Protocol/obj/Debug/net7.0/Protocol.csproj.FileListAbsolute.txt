@@ -6,6 +6,7 @@
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.AssemblyInfoInputs.cache
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.AssemblyInfo.cs
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.csproj.CoreCompileInputs.cache
+/Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.sourcelink.json
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.dll
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/refint/Protocol.dll
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net7.0/Protocol.pdb

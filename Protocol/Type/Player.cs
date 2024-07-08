@@ -14,4 +14,5 @@ public class Player
     [Key(5)] public string Password { get; set; }
     [Key(6)] public string PasswordSalt { get; set; }
     [Key(7)] public DateTime CreateTime { get; set; }
+    [Key(8)] public PremiumType PremiumType { get; set; }
 }
