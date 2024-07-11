@@ -11,7 +11,7 @@ namespace Protocol
     [MessagePackObject]
     public class FindDashBoardRes : ProtocolRes
     {
-        
+        [Key(2)] public bool Exist { get; set; }
     }
 }
     

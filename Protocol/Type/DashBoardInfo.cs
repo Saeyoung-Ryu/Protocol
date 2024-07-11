@@ -19,4 +19,6 @@ public class DashBoardInfo
     [Key(10)] public List<string> MemberTopRankOrderByName { get; set; }
     [Key(11)] public int Point { get; set; }
     [Key(12)] public string Notification { get; set; }
+    [Key(13)] public int TicketUsed { get; set; }
+    [Key(14)] public int MaxTicket { get; set; }
 }
