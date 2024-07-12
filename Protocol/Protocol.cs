@@ -17,6 +17,7 @@ namespace Protocol
 		SignInEmailAuthFinalStep = 9,
 		CreateDashBoard = 10,
 		FindDashBoard = 11,
+		GetDashBoardInfo = 12,
 		End
 	}
 	
@@ -32,6 +33,7 @@ namespace Protocol
 	[Union(8, typeof(SignInEmailAuthFinalStepReq))]
 	[Union(9, typeof(CreateDashBoardReq))]
 	[Union(10, typeof(FindDashBoardReq))]
+	[Union(11, typeof(GetDashBoardInfoReq))]
 	public abstract class Protocol
 	{
 		[Key(0)] public ProtocolId ProtocolId { get; set; }
@@ -52,6 +54,7 @@ namespace Protocol
 	[Union(8, typeof(SignInEmailAuthFinalStepRes))]
 	[Union(9, typeof(CreateDashBoardRes))]
 	[Union(10, typeof(FindDashBoardRes))]
+	[Union(11, typeof(GetDashBoardInfoRes))]
 	public abstract class ProtocolRes
 	{
 		[Key(0)] public ProtocolId ProtocolId { get; set; }

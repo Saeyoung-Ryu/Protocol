@@ -7,6 +7,7 @@ namespace Protocol
     {
         [Key(1)] public string DashBoardName { get; set; }
         [Key(2)] public long Suid { get; set; }
+        [Key(3)] public string Notification { get; set; }
     }
 
     [MessagePackObject]
