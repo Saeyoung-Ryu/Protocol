@@ -18,5 +18,7 @@ public enum Result
     CreateDashBoardFailed = 14,
     DashBoardNameAlreadyExists = 15,
     DashBoardNotFound = 16,
+    DuplicatedNickName = 17,
+    DuplicatedNickNameCheckFailed = 18,
     End
 }
