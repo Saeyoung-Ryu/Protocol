@@ -19,6 +19,9 @@ namespace Protocol
 		FindDashBoard = 11,
 		GetDashBoardInfo = 12,
 		CheckNicknameDuplicated = 13,
+		FindPasswordEmailCheck = 14,
+		FindPasswordVerificationCodeCheck = 15,
+		FindPasswordChangePassword = 16,
 		End
 	}
 	
@@ -36,6 +39,9 @@ namespace Protocol
 	[Union(10, typeof(FindDashBoardReq))]
 	[Union(11, typeof(GetDashBoardInfoReq))]
 	[Union(12, typeof(CheckNicknameDuplicatedReq))]
+	[Union(13, typeof(FindPasswordEmailCheckReq))]
+	[Union(14, typeof(FindPasswordVerificationCodeCheckReq))]
+	[Union(15, typeof(FindPasswordChangePasswordReq))]
 	public abstract class Protocol
 	{
 		[Key(0)] public ProtocolId ProtocolId { get; set; }
@@ -58,6 +64,9 @@ namespace Protocol
 	[Union(10, typeof(FindDashBoardRes))]
 	[Union(11, typeof(GetDashBoardInfoRes))]
 	[Union(12, typeof(CheckNicknameDuplicatedRes))]
+	[Union(13, typeof(FindPasswordEmailCheckRes))]
+	[Union(14, typeof(FindPasswordVerificationCodeCheckRes))]
+	[Union(15, typeof(FindPasswordChangePasswordRes))]
 	public abstract class ProtocolRes
 	{
 		[Key(0)] public ProtocolId ProtocolId { get; set; }
