@@ -23,6 +23,7 @@ namespace Protocol
 		FindPasswordVerificationCodeCheck = 15,
 		FindPasswordChangePassword = 16,
 		AddDashBoardMember = 17,
+		GetAddableNewMemberCount = 18,
 		End
 	}
 	

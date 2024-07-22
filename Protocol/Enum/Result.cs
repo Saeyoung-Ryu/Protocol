@@ -23,5 +23,7 @@ public enum Result
     DashBoardNewMemberAddedFailed = 19,
     DashBoardMemberNumberExceed = 20,
     DashBoardMemberAlreadyExists = 21,
+    MasterNotExist = 22,
+    PremiumBasicNotExist = 23,
     End
 }
