@@ -11,7 +11,7 @@ public class DashBoardInfo
     [Key(3)] public string MasterName { get; set; }
     [Key(4)] public List<Player> ManagerPlayerList { get; set; }
     
-    [Key(5)] public List<MemberWinLoseInfo> MemberTotalRank { get; set; }
+    [Key(5)] public List<MemberWinLoseInfo> MemberTotalRank { get; set; } // 전체멤버 정보 여가서불러오기
     [Key(6)] public List<MemberWinLoseInfo> MemberSupRank { get; set; }
     [Key(7)] public List<MemberWinLoseInfo> MemberAdcRank { get; set; }
     [Key(8)] public List<MemberWinLoseInfo> MemberMidRank { get; set; }
@@ -22,4 +22,5 @@ public class DashBoardInfo
     [Key(13)] public int TicketUsed { get; set; }
     [Key(14)] public int MaxTicket { get; set; }
     [Key(15)] public int MaxMember { get; set; }
+    [Key(16)] public long MasterSuid { get; set; }
 }

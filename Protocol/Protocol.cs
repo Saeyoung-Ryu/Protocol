@@ -22,6 +22,7 @@ namespace Protocol
 		FindPasswordEmailCheck = 14,
 		FindPasswordVerificationCodeCheck = 15,
 		FindPasswordChangePassword = 16,
+		AddDashBoardMember = 17,
 		End
 	}
 	

@@ -20,5 +20,8 @@ public enum Result
     DashBoardNotFound = 16,
     DuplicatedNickName = 17,
     DuplicatedNickNameCheckFailed = 18,
+    DashBoardNewMemberAddedFailed = 19,
+    DashBoardMemberNumberExceed = 20,
+    DashBoardMemberAlreadyExists = 21,
     End
 }
