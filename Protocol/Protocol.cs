@@ -24,6 +24,7 @@ namespace Protocol
 		FindPasswordChangePassword = 16,
 		AddDashBoardMember = 17,
 		GetAddableNewMemberCount = 18,
+		GetRemainingTicketCount = 19,
 		End
 	}
 	
