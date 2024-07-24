@@ -25,6 +25,7 @@ namespace Protocol
 		AddDashBoardMember = 17,
 		GetAddableNewMemberCount = 18,
 		GetRemainingTicketCount = 19,
+		InsertMatchHistory = 20,
 		End
 	}
 	

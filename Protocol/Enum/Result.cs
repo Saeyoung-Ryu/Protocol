@@ -25,5 +25,8 @@ public enum Result
     DashBoardMemberAlreadyExists = 21,
     MasterNotExist = 22,
     PremiumBasicNotExist = 23,
+    DashBoardNotManaged = 24,
+    MatchHistoryAlreadyChecked = 25,
+    MatchHistoryNotFound = 26,
     End
 }

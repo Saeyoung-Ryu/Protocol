@@ -13,7 +13,7 @@ namespace Protocol
     [MessagePackObject]
     public class GetMatchHistoryRes : ProtocolRes
     {
-        [Key(2)] public List<MatchHistory> MatchHistoryList { get; set; }
+        [Key(2)] public List<MatchHistoryInfo> MatchHistoryList { get; set; }
     }
 }
     
