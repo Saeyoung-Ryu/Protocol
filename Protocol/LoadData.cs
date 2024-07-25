@@ -17,7 +17,6 @@ namespace Protocol
         [Key(3)] public List<DashBoardInfoLobby> FavoriteDashBoardInfos { get; set; }
         [Key(4)] public List<DashBoardInfoLobby> ManagingDashBoardInfos { get; set; }
         [Key(5)] public int CreateAbleDashBoard { get; set; }
-        
     }
 }
     

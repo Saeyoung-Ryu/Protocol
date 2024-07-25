@@ -28,5 +28,6 @@ public enum Result
     DashBoardNotManaged = 24,
     MatchHistoryAlreadyChecked = 25,
     MatchHistoryNotFound = 26,
+    FavoriteDashBoardCountExceed = 27,
     End
 }

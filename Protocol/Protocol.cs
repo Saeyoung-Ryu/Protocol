@@ -27,6 +27,7 @@ namespace Protocol
 		GetRemainingTicketCount = 19,
 		InsertMatchHistory = 20,
 		SetMatchHistory = 21,
+		SetFavoriteBoard = 22,
 		End
 	}
 	

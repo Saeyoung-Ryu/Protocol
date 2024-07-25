@@ -17,4 +17,5 @@ public class Player
     [Key(8)] public PremiumType PremiumType { get; set; }
     
     public int CreateAbleDashBoardCount { get; set; }
+    public List<int> FavoritedashBoardSeqList { get; set; }
 }

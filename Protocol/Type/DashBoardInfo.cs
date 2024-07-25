@@ -24,4 +24,6 @@ public class DashBoardInfo
     [Key(15)] public int MaxMember { get; set; }
     [Key(16)] public long MasterSuid { get; set; }
     [Key(17)] public List<MatchHistoryInfo> MatchHistoryInfos { get; set; }
+    
+    [Key(18)] public int DashBoardLikeCount { get; set; }
 }
