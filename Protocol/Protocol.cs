@@ -26,6 +26,7 @@ namespace Protocol
 		GetAddableNewMemberCount = 18,
 		GetRemainingTicketCount = 19,
 		InsertMatchHistory = 20,
+		SetMatchHistory = 21,
 		End
 	}
 	

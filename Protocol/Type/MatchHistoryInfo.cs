@@ -12,4 +12,5 @@ public class MatchHistoryInfo
     [Key(3)] public string CreatorNickName { get; set; }
     [Key(4)] public string? CheckerNickName { get; set; }
     [Key(5)] public TeamType WinTeam { get; set; }
+    [Key(6)] public int Seq { get; set; }
 }

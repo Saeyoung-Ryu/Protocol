@@ -12,6 +12,8 @@ namespace Protocol
         [Key(3)] public string CheckerName { get; set; }
         [Key(4)] public long CheckerSuid { get; set; }
         [Key(5)] public TeamType WinTeam { get; set; }
+        [Key(6)] public bool IsEdit { get; set; }
+        [Key(7)] public MatchHistoryInfo MatchHistoryInfo { get; set; }
     }
 
     [MessagePackObject]
