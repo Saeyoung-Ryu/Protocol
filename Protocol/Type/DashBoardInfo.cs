@@ -9,7 +9,7 @@ public class DashBoardInfo
     [Key(1)] public string Name { get; set; }
     [Key(2)] public DateTime CreateTime { get; set; }
     [Key(3)] public string MasterName { get; set; }
-    [Key(4)] public List<Player> ManagerPlayerList { get; set; }
+    [Key(4)] public List<long> ManagerSuidList { get; set; }
     
     [Key(5)] public List<MemberWinLoseInfo> MemberTotalRank { get; set; } // 전체멤버 정보 여가서불러오기
     [Key(6)] public List<MemberWinLoseInfo> MemberSupRank { get; set; }
