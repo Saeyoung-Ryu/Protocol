@@ -29,5 +29,6 @@ public enum Result
     MatchHistoryAlreadyChecked = 25,
     MatchHistoryNotFound = 26,
     FavoriteDashBoardCountExceed = 27,
+    Fail = 9999,
     End
 }
