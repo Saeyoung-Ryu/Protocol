@@ -29,6 +29,14 @@ public enum Result
     MatchHistoryAlreadyChecked = 25,
     MatchHistoryNotFound = 26,
     FavoriteDashBoardCountExceed = 27,
+    DashBoardInviteNotFound = 28,
+    ManagingBoardCountExceed = 28,
+    DashBoardManagerCountExceed = 29,
+    AlreadyManagingDashBoard = 30,
+    
+    // DashBoardInvite
+    
+    
     Fail = 9999,
     End
 }

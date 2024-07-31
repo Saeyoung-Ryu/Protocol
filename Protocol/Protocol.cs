@@ -29,6 +29,7 @@ namespace Protocol
 		SetMatchHistory = 21,
 		SetFavoriteBoard = 22,
 		GetMySettingDashBoardInfos = 23,
+		ProcessDashBoardInvite = 24,
 		End
 	}
 	
