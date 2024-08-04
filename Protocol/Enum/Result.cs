@@ -29,12 +29,40 @@ public enum Result
     MatchHistoryAlreadyChecked = 25,
     MatchHistoryNotFound = 26,
     FavoriteDashBoardCountExceed = 27,
+    
+    // DashBoardInvite
     DashBoardInviteNotFound = 28,
     ManagingBoardCountExceed = 28,
     DashBoardManagerCountExceed = 29,
     AlreadyManagingDashBoard = 30,
     
-    // DashBoardInvite
+    // 1. 멤버 닉네임 변경
+    NoRightForManager = 31,
+    // (DashBoardNotFound)
+    MemberNotExist = 32,
+    
+    // 2. 멤버 삭제
+    // (NoRightForManager)
+    // (DashBoardNotFound)
+    
+    // 3. 매니저 관리
+    // (DashBoardManagerCountExceed)
+    // (ManagingBoardCountExceed)
+    // (NotExistEmail)
+    // (DashBoardNotFound)
+    EmailAlreadyManager = 33,
+    // (NoRightForManager)
+    
+    // 4. 소개글 관리
+    // (DashBoardNotFound)
+    // (NoRightForManager)
+    
+    // 5. 랭킹 초가화
+    // (DashBoardNotFound)
+    // (NoRightForManager)
+    
+    // 6. dismiss dashBoard (해산/탈퇴)
+    // (DashBoardNotFound)
     
     
     Fail = 9999,
