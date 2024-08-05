@@ -17,5 +17,10 @@ public class Player
     [Key(8)] public PremiumType PremiumType { get; set; }
     
     public int CreateAbleDashBoardCount { get; set; }
+    
+    public int MaxDashBoardCount { get; set; }
+    public int MaxMemberCount { get; set; }
+    public int MaxDailyTicketCount { get; set; }
     public List<int> FavoritedashBoardSeqList { get; set; } = new List<int>();
+    public DateTime LastLoginTime { get; set; }
 }

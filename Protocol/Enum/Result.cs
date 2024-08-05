@@ -38,8 +38,9 @@ public enum Result
     
     // 1. 멤버 닉네임 변경
     NoRightForManager = 31,
+    NoRightForMaster = 32,
     // (DashBoardNotFound)
-    MemberNotExist = 32,
+    MemberNotExist = 33,
     
     // 2. 멤버 삭제
     // (NoRightForManager)
@@ -50,12 +51,15 @@ public enum Result
     // (ManagingBoardCountExceed)
     // (NotExistEmail)
     // (DashBoardNotFound)
-    EmailAlreadyManager = 33,
-    // (NoRightForManager)
+    // (NoRightForMaster)
+    EmailAlreadyManager = 34,
+    
+    // 3.5 매니저 삭제
+    // (NoRightForMaster)
     
     // 4. 소개글 관리
     // (DashBoardNotFound)
-    // (NoRightForManager)
+    // (NoRightForMaster)
     
     // 5. 랭킹 초가화
     // (DashBoardNotFound)

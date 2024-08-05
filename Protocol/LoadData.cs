@@ -18,6 +18,9 @@ namespace Protocol
         [Key(4)] public List<DashBoardInfoLobby> ManagingDashBoardInfos { get; set; }
         [Key(5)] public int CreateAbleDashBoard { get; set; }
         [Key(6)] public List<DashBoardInfoLobby> DashBoardInviteInfos { get; set; }
+        [Key(2)] public int MaxDashBoardCount { get; set; }
+        [Key(2)] public int MaxMemberCount { get; set; }
+        [Key(2)] public int MaxDailyTicketCount { get; set; }
     }
 }
     

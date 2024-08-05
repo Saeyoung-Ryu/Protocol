@@ -7,6 +7,7 @@ namespace Protocol
     public class GetDashBoardInfoReq : Protocol
     {
         [Key(1)] public string DashBoardName { get; set; }
+        [Key(2)] public long Suid { get; set; }
     }
 
     [MessagePackObject]
