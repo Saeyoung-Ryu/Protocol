@@ -30,6 +30,15 @@ namespace Protocol
 		SetFavoriteBoard = 22,
 		GetMySettingDashBoardInfos = 23,
 		ProcessDashBoardInvite = 24,
+		EditMemberNickname = 25,
+		DeleteMember = 26,
+		AddManager = 27,
+		DeleteManager = 28,
+		EditNotification = 29,
+		ResetMemberRank = 30,
+		DismissDashBoard = 31,
+		ChangePassword = 32,
+		WithdrawPlayer = 33,
 		End
 	}
 	

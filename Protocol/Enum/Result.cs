@@ -35,12 +35,14 @@ public enum Result
     ManagingBoardCountExceed = 28,
     DashBoardManagerCountExceed = 29,
     AlreadyManagingDashBoard = 30,
+    InviteCountExceed = 31,
+    AlreadyInvited = 32,
     
     // 1. 멤버 닉네임 변경
-    NoRightForManager = 31,
-    NoRightForMaster = 32,
+    NoRightForManager = 101,
+    NoRightForMaster = 102,
     // (DashBoardNotFound)
-    MemberNotExist = 33,
+    MemberNotExist = 103,
     
     // 2. 멤버 삭제
     // (NoRightForManager)
@@ -52,7 +54,7 @@ public enum Result
     // (NotExistEmail)
     // (DashBoardNotFound)
     // (NoRightForMaster)
-    EmailAlreadyManager = 34,
+    EmailAlreadyManager = 301,
     
     // 3.5 매니저 삭제
     // (NoRightForMaster)
