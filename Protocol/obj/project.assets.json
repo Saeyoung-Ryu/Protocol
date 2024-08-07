@@ -114,25 +114,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/saeyoungryu/.nuget/packages/": {}
+    "/Users/syryu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/Protocol.csproj",
+      "projectUniqueName": "/Users/syryu/Project/whatIsMyLifeAbout/Protocol/Protocol/Protocol.csproj",
       "projectName": "Protocol",
-      "projectPath": "/Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/Protocol.csproj",
-      "packagesPath": "/Users/saeyoungryu/.nuget/packages/",
-      "outputPath": "/Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/",
+      "projectPath": "/Users/syryu/Project/whatIsMyLifeAbout/Protocol/Protocol/Protocol.csproj",
+      "packagesPath": "/Users/syryu/.nuget/packages/",
+      "outputPath": "/Users/syryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/saeyoungryu/.nuget/NuGet/NuGet.Config"
+        "/Users/syryu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -172,7 +171,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/syryu/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,5 @@
 using MessagePack;
+using Protocol.Enum;
 
 namespace Protocol.Type;
 
@@ -26,4 +27,5 @@ public class DashBoardInfo
     [Key(17)] public List<MatchHistoryInfo> MatchHistoryInfos { get; set; }
     
     [Key(18)] public int DashBoardLikeCount { get; set; }
+    [Key(19)] public PremiumType MasterPremiumType { get; set; }
 }
