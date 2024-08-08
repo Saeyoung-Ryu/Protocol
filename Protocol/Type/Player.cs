@@ -21,6 +21,7 @@ public class Player
     public int MaxDashBoardCount { get; set; }
     public int MaxMemberCount { get; set; }
     public int MaxDailyTicketCount { get; set; }
+    public int AttendanceDay { get; set; }
     public List<int> FavoritedashBoardSeqList { get; set; } = new List<int>();
     public DateTime LastLoginTime { get; set; }
 }

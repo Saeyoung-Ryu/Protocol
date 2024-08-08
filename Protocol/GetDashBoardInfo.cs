@@ -1,4 +1,5 @@
 using MessagePack;
+using Protocol.Enum;
 using Protocol.Type;
 
 namespace Protocol
@@ -14,6 +15,8 @@ namespace Protocol
     public class GetDashBoardInfoRes : ProtocolRes
     {
         [Key(2)] public DashBoardInfo DashBoardInfo { get; set; }
+        [Key(3)] public int AttendanceDay { get; set; }
+        [Key(4)] public PremiumType PremiumType { get; set; }
     }
 }
     

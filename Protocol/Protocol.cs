@@ -39,6 +39,7 @@ namespace Protocol
 		DismissDashBoard = 31,
 		ChangePassword = 32,
 		WithdrawPlayer = 33,
+		GetPremiumInfo = 34,
 		End
 	}
 	
