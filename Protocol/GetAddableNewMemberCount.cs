@@ -6,7 +6,7 @@ namespace Protocol
     public class GetAddableNewMemberCountReq : Protocol
     {
         [Key(1)] public int DashBoardSeq { get; set; }
-        [Key(2)] public long MasterSuid { get; set; }
+        // [Key(2)] public long MasterSuid { get; set; }
     }
 
     [MessagePackObject]

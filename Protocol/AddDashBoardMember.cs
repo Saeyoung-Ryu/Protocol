@@ -7,7 +7,7 @@ namespace Protocol
     {
         [Key(1)] public int DashBoardSeq { get; set; }
         [Key(2)] public string NewMemberName { get; set; }
-        [Key(3)] public long DashBoardMasterSuid { get; set; }
+        // [Key(3)] public long DashBoardMasterSuid { get; set; }
         [Key(4)] public long AdderSuid { get; set; }
     }
 
