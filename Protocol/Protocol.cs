@@ -40,6 +40,7 @@ namespace Protocol
 		ChangePassword = 32,
 		WithdrawPlayer = 33,
 		GetPremiumInfo = 34,
+		DelegateMaster = 35,
 		End
 	}
 	
@@ -62,6 +63,7 @@ namespace Protocol
 	[Union(15, typeof(FindPasswordChangePasswordReq))]
 	public abstract class Protocol
 	{
+		public string AccountPass { get; set; }
 		[Key(0)] public ProtocolId ProtocolId { get; set; }
 
 		public Protocol() {}

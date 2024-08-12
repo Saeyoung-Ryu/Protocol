@@ -59,6 +59,9 @@ public enum Result
     // 3.5 매니저 삭제
     // (NoRightForMaster)
     
+    // 3.6 매니저 위임
+    PremiumGradeIsLowerThanMaster = 311,
+    
     // 4. 소개글 관리
     // (DashBoardNotFound)
     // (NoRightForMaster)
