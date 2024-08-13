@@ -13,6 +13,7 @@ namespace Protocol
     [MessagePackObject]
     public class ChangePasswordRes : ProtocolRes
     {
+        public string AccountPass { get; set; }
     }
 }
     
