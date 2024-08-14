@@ -37,3 +37,16 @@
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net8.0.0/refint/Protocol.dll
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.pdb
 /Users/saeyoungryu/Project/whatIsMyLifeAbout/Protocol/Protocol/obj/Debug/net8.0.0/ref/Protocol.dll
+/Users/saeyoungryu/Project/Protocol/Protocol/bin/Debug/net8.0.0/Protocol.deps.json
+/Users/saeyoungryu/Project/Protocol/Protocol/bin/Debug/net8.0.0/Protocol.dll
+/Users/saeyoungryu/Project/Protocol/Protocol/bin/Debug/net8.0.0/Protocol.pdb
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.csproj.AssemblyReference.cache
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.AssemblyInfoInputs.cache
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.AssemblyInfo.cs
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.csproj.CoreCompileInputs.cache
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.sourcelink.json
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.dll
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/refint/Protocol.dll
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/Protocol.pdb
+/Users/saeyoungryu/Project/Protocol/Protocol/obj/Debug/net8.0.0/ref/Protocol.dll
