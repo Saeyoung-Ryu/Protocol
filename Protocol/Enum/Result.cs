@@ -32,11 +32,12 @@ public enum Result
     
     // DashBoardInvite
     DashBoardInviteNotFound = 28,
-    ManagingBoardCountExceed = 28,
-    DashBoardManagerCountExceed = 29,
-    AlreadyManagingDashBoard = 30,
-    InviteCountExceed = 31,
-    AlreadyInvited = 32,
+    ManagingBoardCountExceed = 29,
+    DashBoardManagerCountExceed = 30,
+    AlreadyManagingDashBoard = 31,
+    InviteCountExceed = 32,
+    AlreadyInvited = 33,
+    AuthMailLimitExceed = 34,
     
     // 1. 멤버 닉네임 변경
     NoRightForManager = 101,
@@ -72,7 +73,6 @@ public enum Result
     
     // 6. dismiss dashBoard (해산/탈퇴)
     // (DashBoardNotFound)
-    
     
     Fail = 9999,
     End

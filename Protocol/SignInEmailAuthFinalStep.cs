@@ -9,6 +9,7 @@ namespace Protocol
         [Key(1)] public string Password { get; set; }
         [Key(2)] public string NickName { get; set; }
         [Key(3)] public string Email { get; set; }
+        [Key(4)] public string ClientCode { get; set; }
     }
 
     [MessagePackObject]
