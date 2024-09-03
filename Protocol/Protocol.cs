@@ -41,6 +41,7 @@ namespace Protocol
 		WithdrawPlayer = 33,
 		GetPremiumInfo = 34,
 		DelegateMaster = 35,
+		UpdateMember = 36,
 		End
 	}
 	

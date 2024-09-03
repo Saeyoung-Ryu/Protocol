@@ -73,6 +73,8 @@ public enum Result
     
     // 6. dismiss dashBoard (해산/탈퇴)
     // (DashBoardNotFound)
+    UpdateMemberTooFast = 321,
+    UpdateMemberNoChange = 322,
     
     Fail = 9999,
     End
