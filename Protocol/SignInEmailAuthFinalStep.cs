@@ -1,4 +1,5 @@
 using MessagePack;
+using Protocol.Enum;
 using Protocol.Type;
 
 namespace Protocol
@@ -10,6 +11,7 @@ namespace Protocol
         [Key(2)] public string NickName { get; set; }
         [Key(3)] public string Email { get; set; }
         [Key(4)] public string ClientCode { get; set; }
+        [Key(5)] public LoginType LoginType { get; set; }
     }
 
     [MessagePackObject]
