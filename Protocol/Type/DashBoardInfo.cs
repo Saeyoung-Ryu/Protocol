@@ -20,9 +20,10 @@ public class DashBoardInfo
     [Key(10)] public List<MemberWinLoseInfo> MemberTopRank { get; set; }
     [Key(11)] public int Point { get; set; }
     [Key(12)] public string Notification { get; set; }
-    [Key(13)] public int TicketUsed { get; set; }
-    [Key(14)] public int MaxTicket { get; set; }
-    [Key(15)] public int MaxMember { get; set; }
+    [Key(13)] public string NotificationNext { get; set; }
+    [Key(14)] public int TicketUsed { get; set; }
+    [Key(15)] public int MaxTicket { get; set; }
+    [Key(16)] public int MaxMember { get; set; }
     // [Key(16)] public long MasterSuid { get; set; }
     [Key(17)] public List<MatchHistoryInfo> MatchHistoryInfos { get; set; }
     
