@@ -42,6 +42,8 @@ namespace Protocol
 		GetPremiumInfo = 34,
 		DelegateMaster = 35,
 		UpdateMember = 36,
+		CreateChannel = 37,
+		SendMessage = 38,
 		End
 	}
 	
