@@ -30,4 +30,5 @@ public class DashBoardInfo
     [Key(18)] public int DashBoardLikeCount { get; set; }
     [Key(19)] public PremiumType MasterPremiumType { get; set; }
     [Key(20)] public string Region { get; set; }
+    [Key(21)] public bool DiscordLinked { get; set; }
 }

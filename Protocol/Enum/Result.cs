@@ -76,6 +76,8 @@ public enum Result
     UpdateMemberTooFast = 321,
     UpdateMemberNoChange = 322,
     
+    AlreadyLinkedToDiscordServer = 331,
+    
     Fail = 9999,
     End
 }

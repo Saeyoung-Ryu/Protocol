@@ -7,6 +7,8 @@ namespace Protocol
     {
         public ulong GuildId { get; set; }
         public string ChannelName { get; set; }
+        public int DashBoardSeq { get; set; }
+        public long MasterSuid { get; set; }
     }
 
     [MessagePackObject]
