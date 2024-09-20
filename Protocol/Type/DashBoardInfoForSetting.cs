@@ -11,4 +11,5 @@ public class DashBoardInfoForSetting
     [Key(2)] public List<Manager> Managers { get; set; }
     [Key(3)] public string DashBoardNotification { get; set; }
     [Key(4)] public string DashBoardNotificationNext { get; set; }
+    [Key(5)] public bool IsDiscordConnected { get; set; }
 }
