@@ -11,4 +11,6 @@ public class RecommendDashBoardInfo
     [Key(2)] public string Notification { get; set; }
     [Key(3)] public int MemberCount { get; set; }
     [Key(4)] public DateTime CreateTime { get; set; }
+    [Key(5)] public PremiumType PremiumType { get; set; }
+    [Key(6)] public string Region { get; set; }
 }
