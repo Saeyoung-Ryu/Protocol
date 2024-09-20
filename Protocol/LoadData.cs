@@ -22,6 +22,7 @@ namespace Protocol
         [Key(8)] public int MaxMemberCount { get; set; }
         [Key(9)] public int MaxDailyTicketCount { get; set; }
         [Key(10)] public int AttendanceDay { get; set; }
+        [Key(11)] public List<RecommendDashBoardInfo> RecommendDashBoardInfos { get; set; }
     }
 }
     
