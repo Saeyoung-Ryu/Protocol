@@ -44,6 +44,7 @@ namespace Protocol
 		UpdateMember = 36,
 		CreateChannel = 37,
 		SendMessage = 38,
+		DiscordDisconnect = 39,
 		End
 	}
 	
