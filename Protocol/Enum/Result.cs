@@ -78,6 +78,8 @@ public enum Result
     
     AlreadyLinkedToDiscordServer = 331,
     
+    PasswordWrongCountExceed = 401,
+    
     Fail = 9999,
     End
 }
