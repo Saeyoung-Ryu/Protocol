@@ -15,6 +15,8 @@ namespace Protocol
     {
         [Key(2)] public List<RecommendDashBoardInfo> RecommendDashBoardInfos { get; set; }
         [Key(3)] public List<DashBoardInfoLobby> MyCreatedDashBoards { get; set; }
+        [Key(4)] public int AttendanceDay { get; set; }
+        [Key(5)] public PremiumType PremiumType { get; set; }
     }
 }
     
