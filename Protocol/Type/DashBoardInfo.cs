@@ -32,5 +32,6 @@ public class DashBoardInfo
     [Key(20)] public string Region { get; set; }
     [Key(21)] public bool DiscordLinked { get; set; }
     [Key(22)] public bool IsMaster { get; set; }
+    [Key(23)] public string? DiscordServerName { get; set; }
     
 }
