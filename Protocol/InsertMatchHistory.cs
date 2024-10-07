@@ -12,6 +12,7 @@ namespace Protocol
         [Key(3)] public long CreatorSuid { get; set; }
         [Key(4)] public List<TeamMember> BlueTeamMembers { get; set; }
         [Key(5)] public List<TeamMember> RedTeamMembers { get; set; }
+        [Key(6)] public DateTime CurrentTime { get; set; }
     }
 
     [MessagePackObject]

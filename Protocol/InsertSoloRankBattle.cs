@@ -11,6 +11,7 @@ namespace Protocol
         [Key(3)] public List<List<Member>> TeamMemberList { get; set; }
         [Key(4)] public int RemainTime { get; set; }
         [Key(5)] public int GameCount { get; set; }
+        [Key(6)] public DateTime CurrentTime { get; set; }
     }
 
     [MessagePackObject]
