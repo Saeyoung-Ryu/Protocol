@@ -17,7 +17,7 @@ namespace Protocol
     [MessagePackObject]
     public class InsertSoloRankBattleRes : ProtocolRes
     {
-        
+        [Key(2)] public List<SoloRankMatchHistoryInfo> SoloRankMatchHistoryInfos { get; set; }
     }
 }
     
