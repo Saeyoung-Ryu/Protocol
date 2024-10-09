@@ -80,6 +80,9 @@ public enum Result
     
     PasswordWrongCountExceed = 401,
     
+    // 7. SoloRankBattle
+    AlreadyCalculated = 501,
+    
     Fail = 9999,
     End
 }

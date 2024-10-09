@@ -14,6 +14,7 @@ namespace Protocol
     public class GetMatchHistoryRes : ProtocolRes
     {
         [Key(2)] public List<MatchHistoryInfo> MatchHistoryList { get; set; }
+        [Key(3)] public List<SoloRankMatchHistoryInfo> SoloRankMatchHistoryList { get; set; }
     }
 }
     

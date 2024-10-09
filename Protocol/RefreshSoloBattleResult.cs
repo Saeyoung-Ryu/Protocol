@@ -15,6 +15,7 @@ namespace Protocol
     public class RefreshSoloBattleResultRes : ProtocolRes
     {
         [Key(2)] public SoloRankMatchHistoryInfo SoloRankMatchHistoryInfo { get; set; }
+        [Key(3)] public TimeSpan RefreshTimeRemain { get; set; }
     }
 }
     
