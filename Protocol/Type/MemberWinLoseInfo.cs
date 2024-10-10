@@ -21,6 +21,9 @@ public class MemberWinLoseInfo
     private int _rankPoint;
     
     public int Rank { get; set; }
+    
+    public int SoloRankBattlePoint { get; set; }
+    public int BattleCount { get; set; }
 
     public double WinRate
     {
