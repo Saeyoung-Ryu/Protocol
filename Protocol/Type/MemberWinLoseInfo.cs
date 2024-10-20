@@ -13,6 +13,7 @@ public class MemberWinLoseInfo
     [Key(2)] public int WinCount { get; set; }
 
     [Key(3)] public int LoseCount { get; set; }
+    public string? Tag { get; set; }
     
     public string SoloRank { get; set; }
     public string FlexRank { get; set; }
