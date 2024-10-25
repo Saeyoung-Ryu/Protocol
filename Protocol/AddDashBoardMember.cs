@@ -18,6 +18,7 @@ namespace Protocol
         [Key(3)] public int NewMemberSeq { get; set; }
         [Key(4)] public string SoloRank { get; set; }
         [Key(5)] public string FlexRank { get; set; }
+        [Key(6)] public string FixedName { get; set; }
     }
 }
     
