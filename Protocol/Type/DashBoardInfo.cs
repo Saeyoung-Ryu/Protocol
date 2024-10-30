@@ -34,4 +34,5 @@ public class DashBoardInfo
     [Key(22)] public bool IsMaster { get; set; }
     [Key(23)] public string? DiscordServerName { get; set; }
     [Key(24)] public List<SoloRankMatchHistoryInfo> SoloRankMatchHistoryInfos { get; set; }
+    [Key(25)] public int Color { get; set; }
 }
