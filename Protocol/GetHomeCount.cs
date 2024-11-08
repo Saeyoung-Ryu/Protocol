@@ -15,5 +15,7 @@ namespace Protocol
     {
         public int PlayerCount { get; set; }
         public int MatchCount { get; set; }
+        public int DashBoardCount { get; set; }
+        public int SummonerCount { get; set; }
     }
 }
