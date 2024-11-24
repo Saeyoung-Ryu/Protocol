@@ -35,4 +35,5 @@ public class DashBoardInfo
     [Key(23)] public string? DiscordServerName { get; set; }
     [Key(24)] public List<SoloRankMatchHistoryInfo> SoloRankMatchHistoryInfos { get; set; }
     [Key(25)] public int Color { get; set; }
+    [Key(26)] public List<MatchHistoryInfo> AramMatchHistoryInfos { get; set; }
 }
