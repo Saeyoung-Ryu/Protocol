@@ -36,4 +36,6 @@ public class DashBoardInfo
     [Key(24)] public List<SoloRankMatchHistoryInfo> SoloRankMatchHistoryInfos { get; set; }
     [Key(25)] public int Color { get; set; }
     [Key(26)] public List<MatchHistoryInfo> AramMatchHistoryInfos { get; set; }
+    [Key(27)] public int BackGround { get; set; }
+    [Key(28)] public int Logo { get; set; }
 }
