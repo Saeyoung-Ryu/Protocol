@@ -20,6 +20,7 @@ public class BalanceInfo
     public int AdcMastery { get; set; }
     public string SupportTier { get; set; }
     public int SupportMastery { get; set; }
+    public Dictionary<LineType, List<int>> RecommendChampDic { get; set; }
 
     private int TotalMastery => TopMastery + JgMastery + MidMastery + AdcMastery + SupportMastery;
 
