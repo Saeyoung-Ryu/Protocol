@@ -83,6 +83,10 @@ public enum Result
     // 7. SoloRankBattle
     AlreadyCalculated = 501,
     
+    // 8. SeasonEnd
+    SeasonCannotEnd = 601,
+    CurrentSeasonNoData = 602,
+    
     Fail = 9999,
     End
 }

@@ -18,6 +18,7 @@ namespace Protocol
         [Key(3)] public int AttendanceDay { get; set; }
         [Key(4)] public PremiumType PremiumType { get; set; }
         [Key(5)] public List<SoloRankBattleScore> SoloRankBattleScores { get; set; }
+        [Key(6)] public Dictionary<int, List<SeasonMember>> SeasonMemberDic { get; set; }
     }
 }
     
