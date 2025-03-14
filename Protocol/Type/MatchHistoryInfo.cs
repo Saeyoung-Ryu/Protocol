@@ -13,4 +13,6 @@ public class MatchHistoryInfo
     [Key(4)] public string? CheckerNickName { get; set; }
     [Key(5)] public TeamType WinTeam { get; set; }
     [Key(6)] public int Seq { get; set; }
+    [Key(7)] public int WinPoint { get; set; }
+    [Key(8)] public int LosePoint { get; set; }
 }

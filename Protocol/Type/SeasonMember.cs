@@ -24,6 +24,12 @@ public class SeasonMember
     public int AramWinCount { get; set; }
     public int AramLoseCount { get; set; }
     
+    public int TopPoint { get; set; }
+    public int JunglePoint { get; set; }
+    public int MidPoint { get; set; }
+    public int AdcPoint { get; set; }
+    public int SupPoint { get; set; }
+    
     public int TotalWinCount { get { return SupWinCount + AdcWinCount + MidWinCount + JgWinCount + TopWinCount; } }
     public int TotalLoseCount  { get { return SupLoseCount + AdcLoseCount + MidLoseCount + JgLoseCount + TopLoseCount; } }
 }

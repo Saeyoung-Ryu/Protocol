@@ -13,6 +13,8 @@ namespace Protocol
         [Key(4)] public List<TeamMember> BlueTeamMembers { get; set; }
         [Key(5)] public List<TeamMember> RedTeamMembers { get; set; }
         [Key(6)] public DateTime CurrentTime { get; set; }
+        [Key(7)] public int WinPoint { get; set; }
+        [Key(8)] public int LosePoint { get; set; }
     }
 
     [MessagePackObject]

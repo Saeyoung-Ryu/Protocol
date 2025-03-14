@@ -30,6 +30,7 @@ namespace Protocol
         public int AdcLoseCount { get; set; }
         public int SupportWinCount { get; set; }
         public int SupportLoseCount { get; set; }
+        public int TotalPoint { get; set; }
         
         public List<MatchHistoryInfo> MatchHistoryInfos { get; set; }
         

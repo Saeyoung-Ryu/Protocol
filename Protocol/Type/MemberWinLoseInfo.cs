@@ -30,6 +30,7 @@ public class MemberWinLoseInfo
     public int SoloRankBattlePoint { get; set; }
     public int BattleCount { get; set; }
     public int AramBattlePoint { get; set; }
+    public int Point { get; set; }
 
     public double AramWinRate
     {

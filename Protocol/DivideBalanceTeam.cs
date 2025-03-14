@@ -10,6 +10,9 @@ namespace Protocol
         [Key(2)] public int DashBoardSeq { get; set; }
         [Key(3)] public string Region { get; set; }
         [Key(4)] public List<TeamMember> Members { get; set; }
+        [Key(5)] public bool WithSoloRank { get; set; }
+        [Key(6)] public bool WithFlexRank { get; set; }
+        [Key(7)] public bool WithSoloFlexRank { get; set; }
     }
 
     [MessagePackObject]
